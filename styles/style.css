@@ -1,0 +1,81 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: #fff8f3;
+    padding: 0px 120px;
+    background-image: url('/images/header_bg.png'), url('/images/developer.png');
+    background-repeat: no-repeat;
+    background-size: 50%, contain;
+    background-position: bottom right, top left;
+    margin: 0;
+    border: 1px solid red;
+
+
+}
+.logo{
+    font-size: 25px;
+}
+
+.color-primary{
+    color: #fd6e0a;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.primary-btn{
+    background-color: #fd6e0a;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.name-title{
+    font-size: 40px;
+    margin: 0;
+    margin-top: 10px;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    border: 1px solid red;
+
+}
+.header-column{
+    width: 50%;
+    border: 1px solid red;
+
+}
+.title{
+    margin: 0;
+}
+
+
+
+.header-column img{
+    width: 80%;
+    border: 1px solid red;
+}
+
+.title-description{
+    margin: 30px 0;
+}
