@@ -6,7 +6,7 @@ body{
 header{
     background-color: #fff8f3;
     padding: 0px 120px;
-    background-image: url('/images/header_bg.png'), url('/images/developer.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-size: 50%, contain;
     background-position: bottom right, top left;
@@ -74,8 +74,13 @@ nav{
 .header-column img{
     width: 80%;
     border: 1px solid red;
+    position: relative;
+    top: 8px;
+
 }
 
 .title-description{
     margin: 30px 0;
 }
+
+
